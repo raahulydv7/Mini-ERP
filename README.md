@@ -60,15 +60,17 @@ Project Structure
     ├── requirements.txt
     └── .env
 
+Clone the Repository
+
 
 Setup
 
 1. Create Virtual Env
 
-python -m venv venv
-source venv/bin/activate #linux
+    python -m venv venv
+    source venv/bin/activate #linux
 
-venv\Scripts\activate #windows 
+    venv\Scripts\activate #windows 
 
 2. Install Dependencies
 
@@ -77,19 +79,17 @@ venv\Scripts\activate #windows
 
 3. Setup Environment Variables
 
-SECRET_KEY=your-secret-key
-DEBUG=True
+    SECRET_KEY=your-secret-key
+    DEBUG=True
 
 4. Initialize Database
-bash
-Copy code
 
-python manage.py makemigrations
-python manage.py migrate
-python manage.py createsuperuser
+    python manage.py makemigrations
+    python manage.py migrate
+    python manage.py createsuperuser
 
 5. Run the Server
-python manage.py runserver
+    python manage.py runserver
 
 Access:
 
