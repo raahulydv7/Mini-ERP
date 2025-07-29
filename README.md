@@ -61,6 +61,8 @@ Project Structure
     └── .env
 
 Clone the Repository
+git clone https://github.com/raahulydv7/Mini-ERP.git
+cd Mini-ERP
 
 
 Setup
