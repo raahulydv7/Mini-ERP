@@ -2,7 +2,7 @@ Mini ERP System (Backend API)
 
 - **Backend**: Django, Django REST Framework
 - **Auth**: Simple JWT
-- **Database**: SQLite (default), easily swappable with PostgreSQL
+- **Database**: SQLite
 - **Others**: django-filter, custom permissions
 
 Features
